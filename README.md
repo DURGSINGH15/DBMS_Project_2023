@@ -53,3 +53,27 @@ This project was developed as part of my **Database Management Systems coursewor
 ```bash
 git clone https://github.com/DURGSINGH15/DBMS_Project_2023.git
 cd DBMS_Project_2023
+
+---
+
+###2️⃣Create and Activate a Virtual Environment
+
+For **Windows**:
+```bash
+python -m venv venv
+venv\Scripts\activate
+
+For **Linux/Mac**:
+python3 -m venv venv
+source venv/bin/activate
+
+### 3️⃣ Configure Database
+Open MySQL and create a database:
+CREATE DATABASE StudentTrainingPlacement_DB;
+Update the connection string in app.py with your MySQL username & password:
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://<user>:<password>@localhost/StudentTrainingPlacement_DB"
+
+### 4️⃣ Run the Application
+python app.py
+Now open your browser at:
+http://127.0.0.1:5000/
