@@ -12,7 +12,7 @@ This project was developed as part of my **Database Management Systems coursewor
 - 🏫 **Training Management** – Manage training sessions with name, duration, cost, type, and description.  
 - 🏢 **Company Management** – Store details of recruiting companies, industry type, and locations.  
 - 💼 **Job Management** – Maintain job postings with title, salary, requirements, and descriptions.  
-- 🧑‍💻 **Admin Panel** – Simple admin management.  
+
 - 🔗 **Relationship Handling**:
   - Many-to-Many between **Students ↔ Trainings**  
   - Many-to-Many between **Companies ↔ Jobs**  
@@ -51,5 +51,5 @@ This project was developed as part of my **Database Management Systems coursewor
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/student-placement-management.git
-cd student-placement-management
+git clone https://github.com/DURGSINGH15/DBMS_Project_2023.git
+cd DBMS_Project_2023
